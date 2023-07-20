@@ -14,9 +14,6 @@ body {
     background: rgb(33, 29, 29);
     color: white;
     height: 70px;
-    position: sticky;
-    top: 0;
-    width: 100vw;
 }
 
 .navbar-logo {
@@ -78,5 +75,6 @@ body {
     .content-center {
         position: absolute;
         top: 30%;
+        text-align: center
     }
 }
