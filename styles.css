@@ -80,10 +80,10 @@ body {
     }
 
     .hero-text {
-        animation: slideFromTop 2s 1;
+        animation: slideFromTop 4s ease-in-out 1;
     }
     .btn {
-        animation: slideFromBottom 2s 1;
+        animation: slideFromBottom 4s ease-in-out 1;
     }
 }
 
@@ -95,6 +95,7 @@ body {
 
     100% {
         opacity: 1;
+        transform: translateY(0)
     }
 }
 
@@ -102,5 +103,9 @@ body {
     0%{
         opacity: 0.1;
         transform: translateY(150px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
     }
 }
